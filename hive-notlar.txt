@@ -1,0 +1,28 @@
+
+manage_doviz
+partition date
+
+doviz datası insert et
+
+select ,
+
+
+
+external table:
+create table, data type csv,
+csv hadoop dosyası olacak gönder
+
+other externale
+external_doviz
+
+
+2- tab_sperator table,
+   manage_tab_doviz,
+   
+   
+   hive serde: serialisation deserilisation
+   
+   hive -> inpersonation
+   
+   
+   
