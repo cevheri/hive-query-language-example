@@ -1,0 +1,1 @@
+# hive-query-language-example
