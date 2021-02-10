@@ -5,7 +5,7 @@ CREATE TABLE first_database.doviz_part
     c2 double,
     c3 double,
     c4 double
-) PARTITIONED BY (year STRING);
+) PARTITIONED BY (year INT);
 -- LOAD DATA LOCAL INPATH tab1’/clientdata/2009/file2’OVERWRITE INTO TABLE studentTab PARTITION (year =’2009′);
 -- LOAD DATA LOCAL INPATH tab1’/clientdata/2010/file3’OVERWRITE INTO TABLE studentTab PARTITION (year =’2010′);
 set hive.exec.dynamic.partition.mode=nonstrict;
